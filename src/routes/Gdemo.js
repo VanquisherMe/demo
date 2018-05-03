@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Chart, Geom, Axis, Tooltip,Legend} from 'bizcharts';
+import {track, Chart, Geom, Axis, Tooltip,Legend} from 'bizcharts';
 import { DataView } from '@antv/data-set';
 
-
+track(false);
 class Gdemo extends React.Component {
 
   render(){
